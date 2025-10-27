@@ -43,7 +43,7 @@ int main() {
             if (!heap) cout << " No hay incidentes para mostrar.\n";
             else {
                 cout << "\n ESTRUCTURA DEL HEAP:\n";
-                printHeap(heap);
+                printHeap(heap,-1);
                 cout << endl;
             }
         }
